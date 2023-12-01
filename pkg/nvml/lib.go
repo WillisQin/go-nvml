@@ -27,7 +27,7 @@ import (
 import "C"
 
 const (
-	defaultNvmlLibraryName      = "libnvidia-ml.so.1"
+	defaultNvmlLibraryName      = "libixml.so.1"
 	defaultNvmlLibraryLoadFlags = dl.RTLD_LAZY | dl.RTLD_GLOBAL
 )
 
