@@ -27,7 +27,7 @@ import (
 import "C"
 
 const (
-	defaultNvmlLibraryName      = "libixml.so.1"
+	defaultNvmlLibraryName      = "libixml.so"
 	defaultNvmlLibraryLoadFlags = dl.RTLD_LAZY | dl.RTLD_GLOBAL
 )
 
